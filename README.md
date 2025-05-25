@@ -24,9 +24,6 @@ python3 ip_info.py <IP>
 python3 ip_info.py 8.8.8.8
 ```
 
-  ## License
-[MIT License](LICENSE) - Free to use, modify, and distribute.
-
 ---
 
 Built by [itzneel05](https://github.com/itzneel05) as part of a cybersecurity learning journey. Feedback and contributions welcome!
