@@ -1,6 +1,6 @@
 # IP Info Gatherer
 
-A Python script to gather public information about an IP address (geolocation, ISP, hostname) using the ip-api.com API. Ideal for cybersecurity enthusiasts learning OSINT and reconnaissance.
+A lightweight Python tool for **passive reconnaissance**, gathering public IP information (geolocation, ISP, hostname) using the [ip-api.com](http://ip-api.com) API. Designed for cybersecurity enthusiasts learning **Open-Source Intelligence (OSINT)** and penetration testing. Results are displayed in the console and saved to a JSON file for easy analysis.
 
 ## Features
 - Retrieves IP details: country, city, ISP, hostname.
@@ -13,3 +13,20 @@ A Python script to gather public information about an IP address (geolocation, I
 - Install dependencies:
   ```bash
   pip3 install requests
+  
+  ## Usage
+Run the script with an IP address:
+```bash
+python3 ip_info.py <IP>
+```
+**Example**:
+```bash
+python3 ip_info.py 8.8.8.8
+```
+
+  ## License
+[MIT License](LICENSE) - Free to use, modify, and distribute.
+
+---
+
+Built by [itzneel05](https://github.com/itzneel05) as part of a cybersecurity learning journey. Feedback and contributions welcome!
