@@ -14,7 +14,7 @@ A lightweight Python tool for **passive reconnaissance**, gathering public IP in
   ```bash
   pip3 install requests
   
-  ## Usage
+## Usage
 Run the script with an IP address:
 ```bash
 python3 ip_info.py <IP>
